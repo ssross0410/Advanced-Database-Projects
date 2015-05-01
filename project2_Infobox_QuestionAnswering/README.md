@@ -1,5 +1,5 @@
 Columbia University
-COMS E6111 	Advanced Database Systems
+COMS E6111  Advanced Database Systems
 Project 2
 
 
@@ -11,9 +11,9 @@ Sihan Wang (sw2921)
 
 b) A list of all the files that you are submitting
 
-pa2.py        				// The python file to execute the query expansion.
-README.md      				// README
-transcript				// The transcript of running required test cases
+pa2.py                      // The python file to execute the query expansion.
+README.md                   // README
+transcript              // The transcript of running required test cases
 
 
 c)  A clear description of how to run your program (note that your project must compile/run under Linux in your CS account)
