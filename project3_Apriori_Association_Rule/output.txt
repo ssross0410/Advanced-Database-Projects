@@ -1,0 +1,163 @@
+High-frequency itemsets (min_sup=15.0%)
+
+[RESIDENTIAL BUILDING], 57.7%
+[HPD], 57.7%
+[RESIDENTIAL BUILDING,HPD], 57.7%
+[Department of Housing Preservation and Development], 57.6%
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development], 57.6%
+[HPD,Department of Housing Preservation and Development], 57.6%
+[HEAT/HOT WATER], 43.0%
+[HPD,HEAT/HOT WATER], 43.0%
+[RESIDENTIAL BUILDING,HEAT/HOT WATER], 43.0%
+[RESIDENTIAL BUILDING,HPD,HEAT/HOT WATER], 43.0%
+[HEAT/HOT WATER,Department of Housing Preservation and Development], 42.9%
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development,HEAT/HOT WATER], 42.9%
+[BROOKLYN], 31.7%
+[ENTIRE BUILDING], 28.5%
+[ENTIRE BUILDING,HEAT/HOT WATER], 28.5%
+[RESIDENTIAL BUILDING,ENTIRE BUILDING], 28.5%
+[HPD,ENTIRE BUILDING], 28.5%
+[HPD,ENTIRE BUILDING,HEAT/HOT WATER], 28.5%
+[RESIDENTIAL BUILDING,ENTIRE BUILDING,HEAT/HOT WATER], 28.5%
+[ENTIRE BUILDING,Department of Housing Preservation and Development], 28.4%
+[ENTIRE BUILDING,HEAT/HOT WATER,Department of Housing Preservation and Development], 28.4%
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development,ENTIRE BUILDING], 28.4%
+[BRONX], 25.9%
+[MANHATTAN], 23.1%
+[NEW YORK,MANHATTAN], 22.5%
+[NEW YORK], 22.5%
+[NYPD,New York City Police Department], 22.3%
+[NYPD], 22.3%
+[New York City Police Department], 22.3%
+[NYPD,Precinct], 22.3%
+[Precinct,New York City Police Department], 22.3%
+[NYPD,Precinct,New York City Police Department], 22.3%
+[Precinct], 22.2%
+[BRONX,HPD], 19.3%
+[BRONX,Department of Housing Preservation and Development], 19.3%
+[BRONX,RESIDENTIAL BUILDING], 19.3%
+[BRONX,HPD,Department of Housing Preservation and Development], 19.3%
+[RESIDENTIAL BUILDING,BROOKLYN], 18.2%
+[HPD,BROOKLYN], 18.2%
+[BROOKLYN,Department of Housing Preservation and Development], 18.2%
+[HPD,Department of Housing Preservation and Development,BROOKLYN], 18.2%
+[RESIDENTIAL BUILDING,BROOKLYN,HPD], 18.2%
+[QUEENS], 16.5%
+[Street/Sidewalk], 16.4%
+[NYPD,Street/Sidewalk], 16.4%
+[Street/Sidewalk,New York City Police Department], 16.4%
+[NYPD,Street/Sidewalk,New York City Police Department], 16.4%
+[Precinct,Street/Sidewalk], 16.3%
+[Precinct,Street/Sidewalk,New York City Police Department], 16.3%
+[NYPD,Precinct,Street/Sidewalk], 16.3%
+[NYPD,Precinct,New York City Police Department,Street/Sidewalk], 16.3%
+
+
+High-confidence associate rules (min_conf=70.0%)
+[Precinct] ==> [NYPD] (Conf: 100.2%, Supp: 22.2%)
+[Precinct] ==> [New York City Police Department] (Conf: 100.2%, Supp: 22.2%)
+[NYPD] ==> [New York City Police Department] (Conf: 100.2%, Supp: 22.3%)
+[New York City Police Department] ==> [NYPD] (Conf: 100.2%, Supp: 22.3%)
+[NEW YORK] ==> [MANHATTAN] (Conf: 100.2%, Supp: 22.5%)
+[RESIDENTIAL BUILDING] ==> [HPD] (Conf: 100.0%, Supp: 57.7%)
+[HPD] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 57.7%)
+[Department of Housing Preservation and Development] ==> [HPD] (Conf: 100.0%, Supp: 57.6%)
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development] ==> [HPD] (Conf: 100.0%, Supp: 57.6%)
+[Department of Housing Preservation and Development] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 57.6%)
+[HPD,Department of Housing Preservation and Development] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 57.6%)
+[HPD,HEAT/HOT WATER] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 43.0%)
+[RESIDENTIAL BUILDING,HEAT/HOT WATER] ==> [HPD] (Conf: 100.0%, Supp: 43.0%)
+[HEAT/HOT WATER] ==> [HPD] (Conf: 100.0%, Supp: 43.0%)
+[HEAT/HOT WATER] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 43.0%)
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development,HEAT/HOT WATER] ==> [HPD] (Conf: 100.0%, Supp: 42.9%)
+[HEAT/HOT WATER,Department of Housing Preservation and Development] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 42.9%)
+[HEAT/HOT WATER,Department of Housing Preservation and Development] ==> [HPD] (Conf: 100.0%, Supp: 42.9%)
+[ENTIRE BUILDING] ==> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 28.5%)
+[RESIDENTIAL BUILDING,ENTIRE BUILDING,HEAT/HOT WATER] ==> [HPD] (Conf: 100.0%, Supp: 28.5%)
+[HPD,ENTIRE BUILDING] ==> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 28.5%)
+[ENTIRE BUILDING] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.5%)
+[RESIDENTIAL BUILDING,ENTIRE BUILDING] ==> [HPD] (Conf: 100.0%, Supp: 28.5%)
+[ENTIRE BUILDING] ==> [HPD] (Conf: 100.0%, Supp: 28.5%)
+[ENTIRE BUILDING,HEAT/HOT WATER] ==> [HPD] (Conf: 100.0%, Supp: 28.5%)
+[ENTIRE BUILDING,HEAT/HOT WATER] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.5%)
+[HPD,ENTIRE BUILDING] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.5%)
+[RESIDENTIAL BUILDING,ENTIRE BUILDING] ==> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 28.5%)
+[HPD,ENTIRE BUILDING,HEAT/HOT WATER] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.5%)
+[ENTIRE BUILDING,HEAT/HOT WATER,Department of Housing Preservation and Development] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.4%)
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development,ENTIRE BUILDING] ==> [HPD] (Conf: 100.0%, Supp: 28.4%)
+[ENTIRE BUILDING,HEAT/HOT WATER,Department of Housing Preservation and Development] ==> [HPD] (Conf: 100.0%, Supp: 28.4%)
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development,ENTIRE BUILDING] ==> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 28.4%)
+[ENTIRE BUILDING,Department of Housing Preservation and Development] ==> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 28.4%)
+[ENTIRE BUILDING,Department of Housing Preservation and Development] ==> [HPD] (Conf: 100.0%, Supp: 28.4%)
+[ENTIRE BUILDING,Department of Housing Preservation and Development] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.4%)
+[NYPD,Precinct] ==> [New York City Police Department] (Conf: 100.0%, Supp: 22.3%)
+[Precinct,New York City Police Department] ==> [NYPD] (Conf: 100.0%, Supp: 22.3%)
+[BRONX,HPD] ==> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 19.3%)
+[BRONX,HPD,Department of Housing Preservation and Development] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 19.3%)
+[BRONX,RESIDENTIAL BUILDING] ==> [HPD] (Conf: 100.0%, Supp: 19.3%)
+[BRONX,Department of Housing Preservation and Development] ==> [HPD] (Conf: 100.0%, Supp: 19.3%)
+[BRONX,RESIDENTIAL BUILDING] ==> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 19.3%)
+[BRONX,Department of Housing Preservation and Development] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 19.3%)
+[BRONX,HPD] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 19.3%)
+[BROOKLYN,Department of Housing Preservation and Development] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 18.2%)
+[HPD,BROOKLYN] ==> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 18.2%)
+[RESIDENTIAL BUILDING,BROOKLYN] ==> [HPD] (Conf: 100.0%, Supp: 18.2%)
+[HPD,Department of Housing Preservation and Development,BROOKLYN] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 18.2%)
+[BROOKLYN,Department of Housing Preservation and Development] ==> [HPD] (Conf: 100.0%, Supp: 18.2%)
+[RESIDENTIAL BUILDING,BROOKLYN] ==> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 18.2%)
+[HPD,BROOKLYN] ==> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 18.2%)
+[RESIDENTIAL BUILDING,BROOKLYN,HPD] ==> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 18.2%)
+[Street/Sidewalk,New York City Police Department] ==> [NYPD] (Conf: 100.0%, Supp: 16.4%)
+[NYPD,Street/Sidewalk] ==> [New York City Police Department] (Conf: 100.0%, Supp: 16.4%)
+[Street/Sidewalk] ==> [NYPD] (Conf: 100.0%, Supp: 16.4%)
+[Street/Sidewalk] ==> [New York City Police Department] (Conf: 100.0%, Supp: 16.4%)
+[Precinct,Street/Sidewalk,New York City Police Department] ==> [NYPD] (Conf: 100.0%, Supp: 16.3%)
+[Precinct,Street/Sidewalk] ==> [NYPD] (Conf: 100.0%, Supp: 16.3%)
+[Precinct,Street/Sidewalk] ==> [New York City Police Department] (Conf: 100.0%, Supp: 16.3%)
+[NYPD,Precinct,Street/Sidewalk] ==> [New York City Police Department] (Conf: 100.0%, Supp: 16.3%)
+[NYPD] ==> [Precinct] (Conf: 99.8%, Supp: 22.3%)
+[New York City Police Department] ==> [Precinct] (Conf: 99.8%, Supp: 22.3%)
+[RESIDENTIAL BUILDING] ==> [Department of Housing Preservation and Development] (Conf: 99.8%, Supp: 57.7%)
+[HPD] ==> [Department of Housing Preservation and Development] (Conf: 99.8%, Supp: 57.7%)
+[RESIDENTIAL BUILDING,HPD] ==> [Department of Housing Preservation and Development] (Conf: 99.8%, Supp: 57.7%)
+[HPD,HEAT/HOT WATER] ==> [Department of Housing Preservation and Development] (Conf: 99.7%, Supp: 43.0%)
+[RESIDENTIAL BUILDING,HPD,HEAT/HOT WATER] ==> [Department of Housing Preservation and Development] (Conf: 99.7%, Supp: 43.0%)
+[HEAT/HOT WATER] ==> [Department of Housing Preservation and Development] (Conf: 99.7%, Supp: 43.0%)
+[RESIDENTIAL BUILDING,HEAT/HOT WATER] ==> [Department of Housing Preservation and Development] (Conf: 99.7%, Supp: 43.0%)
+[NYPD,New York City Police Department] ==> [Precinct] (Conf: 99.7%, Supp: 22.3%)
+[HPD,ENTIRE BUILDING] ==> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
+[ENTIRE BUILDING] ==> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
+[RESIDENTIAL BUILDING,ENTIRE BUILDING] ==> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
+[HPD,ENTIRE BUILDING,HEAT/HOT WATER] ==> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
+[RESIDENTIAL BUILDING,ENTIRE BUILDING,HEAT/HOT WATER] ==> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
+[ENTIRE BUILDING,HEAT/HOT WATER] ==> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
+[Street/Sidewalk,New York City Police Department] ==> [Precinct] (Conf: 99.5%, Supp: 16.4%)
+[NYPD,Street/Sidewalk] ==> [Precinct] (Conf: 99.5%, Supp: 16.4%)
+[Street/Sidewalk] ==> [Precinct] (Conf: 99.5%, Supp: 16.4%)
+[NYPD,Street/Sidewalk,New York City Police Department] ==> [Precinct] (Conf: 99.5%, Supp: 16.4%)
+[MANHATTAN] ==> [NEW YORK] (Conf: 97.4%, Supp: 23.1%)
+[RESIDENTIAL BUILDING,BROOKLYN,HPD] ==> [HEAT/HOT WATER] (Conf: 76.2%, Supp: 18.2%)
+[HPD,BROOKLYN] ==> [HEAT/HOT WATER] (Conf: 76.2%, Supp: 18.2%)
+[HPD,Department of Housing Preservation and Development,BROOKLYN] ==> [HEAT/HOT WATER] (Conf: 76.2%, Supp: 18.2%)
+[RESIDENTIAL BUILDING,BROOKLYN] ==> [HEAT/HOT WATER] (Conf: 76.2%, Supp: 18.2%)
+[BROOKLYN,Department of Housing Preservation and Development] ==> [HEAT/HOT WATER] (Conf: 76.2%, Supp: 18.2%)
+[HPD] ==> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.7%)
+[RESIDENTIAL BUILDING,HPD] ==> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.7%)
+[RESIDENTIAL BUILDING] ==> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.7%)
+[HPD,Department of Housing Preservation and Development] ==> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.6%)
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development] ==> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.6%)
+[Department of Housing Preservation and Development] ==> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.6%)
+[BRONX] ==> [HPD] (Conf: 74.5%, Supp: 25.9%)
+[BRONX] ==> [RESIDENTIAL BUILDING] (Conf: 74.5%, Supp: 25.9%)
+[BRONX] ==> [Department of Housing Preservation and Development] (Conf: 74.5%, Supp: 25.9%)
+[NYPD] ==> [Street/Sidewalk] (Conf: 73.3%, Supp: 22.3%)
+[New York City Police Department] ==> [Street/Sidewalk] (Conf: 73.3%, Supp: 22.3%)
+[Precinct] ==> [Street/Sidewalk] (Conf: 73.2%, Supp: 22.2%)
+[NYPD,New York City Police Department] ==> [Street/Sidewalk] (Conf: 73.2%, Supp: 22.3%)
+[Precinct,New York City Police Department] ==> [Street/Sidewalk] (Conf: 73.1%, Supp: 22.3%)
+[NYPD,Precinct] ==> [Street/Sidewalk] (Conf: 73.1%, Supp: 22.3%)
+[NYPD,Precinct,New York City Police Department] ==> [Street/Sidewalk] (Conf: 73.1%, Supp: 22.3%)
+[BRONX,RESIDENTIAL BUILDING] ==> [HEAT/HOT WATER] (Conf: 72.2%, Supp: 19.3%)
+[BRONX,HPD,Department of Housing Preservation and Development] ==> [HEAT/HOT WATER] (Conf: 72.2%, Supp: 19.3%)
+[BRONX,HPD] ==> [HEAT/HOT WATER] (Conf: 72.2%, Supp: 19.3%)
+[BRONX,Department of Housing Preservation and Development] ==> [HEAT/HOT WATER] (Conf: 72.2%, Supp: 19.3%)
