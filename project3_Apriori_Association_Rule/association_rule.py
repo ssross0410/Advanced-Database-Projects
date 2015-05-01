@@ -20,6 +20,7 @@ def main():
 		minSup = sys.argv[2]
 		minConf = sys.argv[3]
 	else:
+		# call the error function
 		error()
 	try:
 		with open(fileName,'rU') as dataFile:
