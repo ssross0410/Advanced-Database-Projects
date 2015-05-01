@@ -11,7 +11,7 @@ item_sets = {}
 # dict of frequent itemsets, support value greater than the min support 
 freq_items = {}
 
-# the association rule dictionary
+# the association rule dict
 associate_rule = {}
 
 # the main function
